@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="492434e7-d800-44f3-a4d3-6a1f434f805e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/politically_informed/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/politically_informed/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voters/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/voters/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voters/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/voters/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603563400980</updated>
-      <workItem from="1603563402049" duration="13024000" />
+      <workItem from="1603563402049" duration="13224000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1603564885722</created>
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604060798505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;fixed error">
+      <created>1604062035392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604062035392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +126,8 @@
     <MESSAGE value="created project" />
     <MESSAGE value="create project" />
     <MESSAGE value="&#10;getting error with no psycopg2?" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;getting error with no psycopg2?" />
+    <MESSAGE value="&#10;fixed error" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;fixed error" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">

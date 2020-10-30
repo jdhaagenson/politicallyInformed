@@ -265,3 +265,4 @@ Temporary Items
 # Local History for Visual Studio Code
 .history/
 
+voters/migrations/0001_initial.py
