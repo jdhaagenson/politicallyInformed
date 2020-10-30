@@ -12,6 +12,11 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 
+import environ
+
+env = environ.Env()
+environ.Env.read_env()
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+z%(k$bx18%9g&!emqilxxe#_4m3dyphm(cew$)n3)%-u%issc'
+SECRET_KEY = env('SECRET_KEY', default="unsafe-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,9 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'djecrety',
     'api',
-    'voters',
     'authentication',
+    'voters',
 
     'allauth',
     'allauth.account',
@@ -84,12 +90,8 @@ WSGI_APPLICATION = 'politically_informed.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'political_database',
-        'USER': 'jordan',
-        'PASSWORD': 'rascal',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -132,12 +134,17 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTHENTICATION_BACKENDS = (
+AUTH_USER_MODEL = "voters.Voter"
+
+AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
+    'django.contrib.auth.backends.AllowAllUsersModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
-)
+]
 
 SITE_ID = 1
+
+LOGIN_URL = '/login/'
 
 LOGIN_REDIRECT_URL = '/'
 
