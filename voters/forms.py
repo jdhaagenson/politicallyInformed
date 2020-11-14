@@ -11,3 +11,7 @@ class RegisterVoter(forms.ModelForm):
             'gender',
             'party'
         ]
+
+
+class EditProfilePhoto(forms.Form):
+    image = forms.ImageField

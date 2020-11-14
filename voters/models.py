@@ -18,7 +18,7 @@ class Voter(AbstractUser):
     )
     party = models.CharField(max_length=12, choices=PARTY_CHOICES, default='U')
     gender = models.CharField(max_length=7, choices=GENDER_CHOICES, default='P')
-    profile_pic = models.URLField()
+    profile_pic = models.URLField(null=True, blank=True)
     REQUIRED_FIELDS = ['email', 'party', 'gender']
 
 
