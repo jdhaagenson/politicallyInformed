@@ -11,14 +11,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="492434e7-d800-44f3-a4d3-6a1f434f805e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authentication/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/quiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electoral_map/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/electoral_map/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electoral_map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/electoral_map/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electoral_map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/electoral_map/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politically_informed/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/politically_informed/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politically_informed/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/politically_informed/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/electoral_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electoral_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voters/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/voters/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voters/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/voters/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voters/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voters/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -46,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/authentication" />
     </key>
   </component>
@@ -82,6 +101,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603563400980</updated>
       <workItem from="1603563402049" duration="20870000" />
+      <workItem from="1605374850012" duration="6322000" />
+      <workItem from="1605610837948" duration="15137000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1603564885722</created>
@@ -111,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604062134647</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added app for stances in a quiz like isidewith and a map like the one on 270towin they aren't done though obviously">
+      <created>1605375331759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605375331759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -137,18 +166,23 @@
     <MESSAGE value="&#10;getting error with no psycopg2?" />
     <MESSAGE value="&#10;fixed error" />
     <MESSAGE value="&#10;ignoring migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;ignoring migration" />
+    <MESSAGE value="added app for stances in a quiz like isidewith and a map like the one on 270towin they aren't done though obviously" />
+    <option name="LAST_COMMIT_MESSAGE" value="added app for stances in a quiz like isidewith and a map like the one on 270towin they aren't done though obviously" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="834" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605611022444">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="834" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1605611022444" />
     <state x="636" y="228" key="FileChooserDialogImpl" timestamp="1603563822483">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="636" y="228" key="FileChooserDialogImpl/0.23.1440.825@0.23.1440.825" timestamp="1603563822483" />
-    <state x="350" y="106" key="SettingsEditor" timestamp="1603564961889">
+    <state x="350" y="106" key="SettingsEditor" timestamp="1605403161800">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="350" y="106" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1603564961889" />
+    <state x="350" y="106" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1605403161800" />
     <state x="637" y="207" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603564558493">
       <screen x="0" y="23" width="1440" height="825" />
     </state>

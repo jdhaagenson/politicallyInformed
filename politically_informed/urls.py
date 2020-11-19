@@ -16,7 +16,29 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from api.views import *
+from authentication.views import *
+from electoral_map.views import *
+from quiz.views import *
+from voters.views import *
+
 urlpatterns = [
+    path('', main, name="main"),
+    path('login/', login_view),
+    path('logout/', logout_view),
+    path('register/', register_view),
+    path('map/', map_view),
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
 ]
+
+
+# Todo: login_view, logout_view, registration, map_view, api, quiz, edit_profile, main, story, issue
+
+# Todo main: news non-biased
+# Todo map: Clickable 270 to win map
+# Todo story: news story
+# Todo issue: details on certain issue
+# Todo suggestion: let people suggest topics or give feedback
+# Todo api: data
+# Todo quiz: isidewith type quiz but accurate

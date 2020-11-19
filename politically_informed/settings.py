@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 
+import django_heroku
 import environ
 
 env = environ.Env()
@@ -43,10 +44,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'django_heroku',
     'djecrety',
     'api',
     'authentication',
     'voters',
+    'quiz',
 
     'allauth',
     'allauth.account',
